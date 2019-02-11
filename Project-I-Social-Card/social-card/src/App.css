@@ -2,3 +2,54 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+/* App.js */
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.25;
+}
+
+.Card {
+  /* border-bottom: 1px solid lightgray; */
+  max-width: 566px;
+}
+
+.CardContainer {
+  margin-top: 13px;
+  display: flex;
+  flex-direction: column;
+  width: 89%;
+  margin-left: auto;
+  padding-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.CardBanner {
+  border-radius: 5px 5px 0px 0px;
+  background-image: url('https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png');
+  background-size: cover;
+  width: 100%;
+  height: 253px;
+}
+
+.CardContentTitle {
+  margin: 13px 13px 7px 13px;
+  font-size: .89rem;
+}
+
+.CardContentParagraph {
+  font-size: .88rem;
+  margin: 0px 13px 5px 13px;
+}
+
+.CardContentLink {
+  text-decoration: none;
+  color: gray;
+  margin-left: 13px;
+  font-size: .92rem;
+}
