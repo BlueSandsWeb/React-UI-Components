@@ -39,6 +39,19 @@ body {
   flex-basis: 74%;
 }
 
+.Display {
+  width: 100%;
+  background-color: #272727;
+  color: white;
+  font-size: 4.5rem;
+  padding: 12px;
+  text-align: right;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  height: 21.1%;
+}
+
 .SymbolSide {
   flex-basis: 26%;
   justify-content: space-evenly;
@@ -52,35 +65,31 @@ body {
   font-size: 2.5rem;
   background-color: darkred;
   color: white;
-  border: none;
-  margin: 1px ;
-  border-radius: 5px;
 }
 .Row {
   flex-grow: 1;
-  border-radius: 5px;
   display: flex;
   flex-direction: row; 
 }
 
-.Zero, .Clear {
+.Action {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
   background-color: white;
-}
-
-.Zero {
   font-weight: bold;
 }
 
 .RowThree {
-  border-radius: 5px;
-  margin: 1px;
   flex-grow: 1;
   font-weight: bold;
   font-size: 3rem;
   background-color: white;
 }
 
+.btn {
+  margin: 1px;
+  border: none;
+  border: none;
+}
