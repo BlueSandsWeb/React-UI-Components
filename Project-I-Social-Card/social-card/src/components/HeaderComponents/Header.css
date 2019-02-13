@@ -1,1 +1,53 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.HeaderImgContainer {
+  width: 48px;
+  height: 48px;
+  background-color: #a40000;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px auto;
+}
+
+.HeaderImg {
+ max-width: 33px;
+  padding: 3px;
+  padding-top: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.Header {
+  flex-basis: 89%;
+}
+
+.HeaderTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.CardHeaderTitle {
+  font-size: .9rem;
+  margin: 10px 0;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.handle {
+  margin-right: 5px;
+  color: gray;
+  text-decoration: none;
+}
+
+.HeaderContentParagraph {
+  margin: 0px;
+  font-size: .897rem;
+  line-height: 1.25;
+}
